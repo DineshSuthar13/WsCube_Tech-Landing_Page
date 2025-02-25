@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+/*****! Start Header Section *****/
+header {
+    width: 100%;
+    box-shadow: 0 0 1rem #ccc;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-mid {
+    width: 130rem;
+    padding: 1rem 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo>img {
+    width: 15rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+}
+
+/*****! End Header Section *****/
+
+
+
+/*****! Start main-section Section *****/
+.main-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/the-town-bg-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section>h1 {
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.1rem black;
+}
+
+.main-section>i {
+    font-size: 8rem;
+    color: white;
+    transition: all 0.3s linear;
+    border-radius: 50%;
+}
+
+.main-section>i:hover {
+    color: blue;
+    background-color: white;
+}
+
+/*****! End main-section Section *****/
+
+
+
+/*****! Start first-section Section *****/
+.first-section {
+    width: 100%;
+    padding: 7rem 0;
+}
+
+.first-section-mid {
+    width: 130rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-section-mid-img {
+    width: 45%;
+}
+
+.first-section-mid-img>img {
+    width: 100%;
+}
+
+.first-section-mid-content {
+    width: 50%;
+}
+
+.first-section-mid-content>h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: rgb(79, 79, 252);
+}
+
+.first-section-mid-content>p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.first-section-mid-content>button {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(79, 79, 252);
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/*****! End first-section Section *****/
+
+
+
+/*****! Start second-section Section *****/
+.second-section {
+    width: 100%;
+    padding-bottom: 7rem;
+}
+
+.second-section-mid {
+    width: 130rem;
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+}
+
+.second-section-mid-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-mid-box-1>i {
+    color: rgb(79, 79, 252);
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
+.second-section-mid-box-1>h3 {
+    color: rgb(79, 79, 252);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.second-section-mid-box-1>p {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+/*****! End second-section Section *****/
+
+
+
+/*****! Start third-section Section *****/
+.third-section {
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.third-section-mid {
+    width: 130rem;
+    margin: auto;
+}
+
+.third-section-mid>h1 {
+    color: rgb(79, 79, 252);
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.third-section-mid>p {
+    width: 64rem;
+    text-align: center;
+    margin: auto;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+.third-section-mid-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-1>img {
+    width: 22rem;
+    height: 33rem;
+}
+
+/*****! End third-section Section *****/
+
+
+
+/*****! Start four-section Section *****/
+.four-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/the-town-bg-02.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid transparent;
+    position: relative;
+}
+
+.four-section-mid {
+    width: 110rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.four-section-mid>h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.1rem black;
+    margin-bottom: 1rem;
+}
+
+.four-section-mid>.borderline {
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+
+.four-section-mid>.borderline>.dark {
+    width: 26rem;
+    height: 0.8rem;
+    background-color: white;
+}
+
+.four-section-mid>p {
+    color: white;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14rem;
+}
+
+.contact-details-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contact-details-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.part-1 {
+    display: flex;
+    align-items: center;
+}
+
+.part-1 i,
+.part-1 span {
+    transition: all 0.3s linear;
+}
+
+.part-1:hover i,
+.part-1:hover span {
+    color: rgb(79, 79, 252);
+}
+
+.part-1>i {
+    font-size: 3.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.part-1>span {
+    font-size: 2rem;
+    color: white;
+}
+
+.part-1>.text {
+    padding: 1rem 3rem;
+    background: transparent;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    color: white;
+}
+
+.part-1>.text:focus {
+    outline: white;
+}
+
+.part-1>.text::placeholder {
+    color: white;
+}
+
+.part-1>.button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #ebe6e6;
+}
+
+.part-2 {
+    display: flex;
+    gap: 2rem;
+}
+
+.copyright {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.copyright span {
+    transition: all 0.3s linear;
+}
+
+.copyright:hover span {
+    color: rgb(79, 79, 252);
+}
+
+/*****! End four-section Section *****/
