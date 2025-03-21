@@ -12,7 +12,7 @@ html {
 
 /*****! Start Header Section *****/
 .showModal {
-    left: 0;
+    left: 0 !important;
 }
 
 header {
