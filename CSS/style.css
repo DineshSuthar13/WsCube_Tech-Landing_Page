@@ -11,6 +11,10 @@ html {
 }
 
 /*****! Start Header Section *****/
+.showModal {
+    left: 0;
+}
+
 header {
     width: 100%;
     box-shadow: 0 0 1rem #ccc;
