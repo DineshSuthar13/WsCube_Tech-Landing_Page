@@ -50,6 +50,12 @@ header {
     font-weight: 400;
 }
 
+.hamburgar {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
 /*****! End Header Section *****/
 
 
